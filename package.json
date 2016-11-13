@@ -1,0 +1,28 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "description": "test to create db connection",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voodoo-rific/dbtest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voodoo-rific/dbtest/issues"
+  },
+  "homepage": "https://github.com/voodoo-rific/dbtest#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.7",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
+  }
+}
